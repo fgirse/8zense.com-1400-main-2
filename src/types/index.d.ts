@@ -84,3 +84,8 @@ export type Header = {
 pathname: string ;
 
 }
+
+export type AuthInfo = {
+
+
+}

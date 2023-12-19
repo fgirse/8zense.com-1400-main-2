@@ -9,7 +9,8 @@ import { usePathname } from "next/navigation";
 import React, { useEffect } from "react";
 import { IoSearch } from "react-icons/io5/index.js";
 import UserBtm from "@/components/UserButton";
-
+import AuthInfo
+ from "@/components/AuthInfo";
 //  child navigation link interface
 export interface IChildNavigationLink {
   name: string;
@@ -160,6 +161,7 @@ const Header = () => {
             </Link>
           )}
         </div>
+        <AuthInfo/>
       </nav>
     </header>
   );

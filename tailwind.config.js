@@ -82,6 +82,9 @@ module.exports = {
         primary: [fontPrimary, fontPrimaryType],
         secondary: [fontSecondary, fontSecondaryType],
       },
+      container: {
+        center: true,
+      },
     },
   },
   plugins: [

@@ -29,6 +29,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/layouts/partials/PageHeader.tsx", "src/layouts/partials/Header.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/layouts/partials/PageHeader.tsx", "src/layouts/partials/Header.tsx", "src/layouts/components/AuthInfo.tsx"],
   "exclude": ["node_modules"]
 }
